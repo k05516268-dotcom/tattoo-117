@@ -601,6 +601,8 @@ h2 {
     transition: transform 400ms var(--ease-out);
   }
 
+  /* когда меню открыто, difference выключен: иначе тёмный фон меню не гасит герой */
+  .nav_open { mix-blend-mode: normal; }
   .nav_open .nav__links { transform: translateY(0); }
   .nav__links a { font-size: 26px; font-family: var(--font-display); }
   .nav__cta { display: none; }
