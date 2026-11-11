@@ -64,9 +64,9 @@ h2 {
 
 .nav__logo { color: #fff; display: flex; }
 .nav__links { display: flex; gap: 26px; margin-left: auto; }
-.nav__links a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 500; }
+.nav__links a { color: #fff; text-decoration: none; font-size: 20px; font-weight: 500; }
 .nav__links a:hover { border-color: #fff; }
-.nav__cta { color: #fff; text-decoration: none; font-size: 14px; font-weight: 700; }
+.nav__cta { color: #fff; text-decoration: none; font-size: 20px; font-weight: 700; }
 .nav__cta:hover { border-bottom: 1px solid #fff; }
 
 .nav__burger {
